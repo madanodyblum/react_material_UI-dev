@@ -274,13 +274,13 @@ class NavBar extends PureComponent {
               alignItems="center"
               width="100%"
             >
-              <Typography color="textPrimary" style={{padding: "0 30px"}}>Last Payout:</Typography>
+              {/* <Typography color="textPrimary" style={{padding: "0 30px"}}>Last Payout:</Typography> */}
               {isWidthUp("sm", width) && (
                 <Box mr={3}>
                   <Balance balance={2573} />
                 </Box>
               )}
-              <Typography color="textPrimary" style={{padding: "0 30px"}}>Wallet:</Typography>
+              {/* <Typography color="textPrimary" style={{padding: "0 30px"}}>Wallet:</Typography> */}
               {isWidthUp("sm", width) && (
                 <Box mr={3}>
                   <Balance balance={2573} />
